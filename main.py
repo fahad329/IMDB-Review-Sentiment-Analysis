@@ -35,9 +35,7 @@ st.write('Enter a movie Review to classify as positive or negative')
 
 #user input
 
-user_input = str(st.text_area('Movie Review'))
-print(user_input)
-print(type(user_input))
+user_input = st.text_area('Movie Review')
 
 if st.button('Classify'):
 
@@ -49,3 +47,4 @@ if st.button('Classify'):
 else:
     st.write('Please enter a movie review')
     
+
